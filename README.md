@@ -1,1 +1,1 @@
-# golang-pg-sqlc-cli-
+# golang-pg-sqlc-cli
