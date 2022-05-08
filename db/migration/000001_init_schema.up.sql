@@ -9,7 +9,7 @@
 CREATE TABLE "accounts" (
   "id" bigserial PRIMARY KEY,
   "owner" varchar NOT NULL,
-  "balance" decimal NOT NULL,
+  "balance" bigint NOT NULL,
   "currency" varchar NOT NULL,
   "created_at" timestamp NOT NULL DEFAULT (now())
 );
@@ -18,9 +18,9 @@ CREATE TABLE "orders" (
   "id" bigserial PRIMARY KEY,
   "account_id" bigint NOT NULL,
   "token_id" bigint NOT NULL,
-  "amount" decimal NOT NULL,
+  "amount" bigint NOT NULL,
   "side" varchar NOT NULL DEFAULT 'BUY',
-  "price" decimal NOT NULL,
+  "price" bigint NOT NULL,
   "status" varchar NOT NULL DEFAULT 'OPEN',
   "created_at" timestamp NOT NULL DEFAULT (now())
 );
@@ -29,7 +29,7 @@ CREATE TABLE "transfers" (
   "id" bigserial PRIMARY KEY,
   "from_account_id" bigint NOT NULL,
   "to_account_id" bigint NOT NULL,
-  "amount" decimal NOT NULL,
+  "amount" bigint NOT NULL,
   "created_at" timestamp NOT NULL DEFAULT (now())
 );
 

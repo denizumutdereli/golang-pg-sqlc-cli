@@ -11,7 +11,7 @@ import (
 type Account struct {
 	ID        int64     `json:"id"`
 	Owner     string    `json:"owner"`
-	Balance   string    `json:"balance"`
+	Balance   int64     `json:"balance"`
 	Currency  string    `json:"currency"`
 	CreatedAt time.Time `json:"created_at"`
 }
@@ -21,10 +21,10 @@ type Order struct {
 	AccountID int64 `json:"account_id"`
 	TokenID   int64 `json:"token_id"`
 	// can be negative or positive
-	Amount string `json:"amount"`
+	Amount int64  `json:"amount"`
 	Side   string `json:"side"`
 	// can not be negative
-	Price     string    `json:"price"`
+	Price     int64     `json:"price"`
 	Status    string    `json:"status"`
 	CreatedAt time.Time `json:"created_at"`
 }
@@ -42,6 +42,6 @@ type Transfer struct {
 	FromAccountID int64 `json:"from_account_id"`
 	ToAccountID   int64 `json:"to_account_id"`
 	// it must be positive
-	Amount    string    `json:"amount"`
+	Amount    int64     `json:"amount"`
 	CreatedAt time.Time `json:"created_at"`
 }

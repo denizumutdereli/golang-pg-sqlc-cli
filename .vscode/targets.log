@@ -1,0 +1,424 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May 08 22:23:11 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/go/simplebank
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+FP_NO_HOST_CHECK = NO
+# environment
+VBOX_MSI_INSTALL_PATH = D:\Program Files\Oracle\VirtualBox\
+# environment
+NVM_HOME = C:\Users\denizdereli\AppData\Roaming\nvm
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\DENIZD~1\AppData\Local\Temp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ETHEREUM_SOCKET = \\.\pipe\geth.ipc
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = d:\Program Files\nodejs
+# environment
+COMPOSE_CONVERT_WINDOWS_PATHS = true
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+CUDA_PATH_V10_1 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3dc8cc09-6510-489e-8a34-e4fe20f7fead-sock
+# environment
+VSCODE_CWD = D:\Users\denizdereli\AppData\Local\Programs\Microsoft VS Code
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+NO_PROXY = 192.168.99.100
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+GIT_LFS_PATH = d:\Program Files\Git LFS
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132939349357186608
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\denizdereli
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\denizdereli\go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+PHPSTORM = d:\Program Files\JetBrains\PhpStorm 2021.3\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6812_AHKJWKMWVUWCFINE
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DENIZ
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = denizdereli
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Users\denizdereli\go\pkg\mod
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\denizdereli\AppData\Roaming\Code\CachedData\57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DENIZ
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = deniz
+# environment
+MAKELEVEL := 0
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = d:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;
+# environment
+ZOOKEEPER_HOME = D:\zookeeper
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = D:\ProgramData\Anaconda3;D:\ProgramData\Anaconda3\Library\mingw-w64\bin;D:\ProgramData\Anaconda3\Library\usr\bin;D:\ProgramData\Anaconda3\Library\bin;D:\ProgramData\Anaconda3\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;d:\Users\denizdereli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\denizdereli\AppData\Roaming\Composer\vendor\bin;C:\Users\denizdereli\AppData\Local\Yarn\bin;C:\Users\denizdereli\AppData\Roaming\npm;D:\Program Files\curl\bin\curl;C:\Users\denizdereli\AppData\Roaming\npm\node_modules\npm\bin;C:\Users\denizdereli\AppData\Roaming\np;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.1\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\webserver\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;d:\Program Files\Git LFS;C:\Program Files\PuTTY\;d:\Program Files\Git\cmd;d:\Program Files\Symfony;C:\Program Files\Amazon\AWSCLIV2\;d:\Program Files\Kubernetes\Minikube;D:\Program Files\Go\bin;C:\Users\denizdereli\AppData\Roaming\nvm;d:\Program Files\nodejs;D:\TDM-GCC-64\bin;d:\Ruby31-x64\bin;d:\Users\denizdereli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\denizdereli\AppData\Roaming\Composer\vendor\bin;C:\Users\denizdereli\AppData\Local\Yarn\bin;D:\Program Files\curl\bin\curl;C:\Users\denizdereli\AppData\Roaming\npm\node_modules\npm\bin;d:\Program Files\JetBrains\PhpStorm 2021.3\bin;;d:\Program Files\JetBrains\PyCharm 2020.3\bin;;D:\wamp64\www\selenium\drivers;C:\Users\denizdereli\.dotnet\tools;C:\Users\denizdereli\AppData\Local\GitHubDesktop\bin;d:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;D:\Program Files\MongoDB\Server\4.0\bin;d:\Program Files\heroku\bin;C:\Users\denizdereli\AppData\Roaming\npm;D:\wamp128\bin\mariadb\mariadb10.6.5\bin;D:\wamp128\bin\mysql\mysql5.7.36\bin;d:\Program Files\Docker Toolbox;D:\zookeeper\bin;D:\kafka\bin\windows;D:\Program Files\Kubernetes\Minikube;C:\ProgramData\chocolatey;C:\Users\denizdereli\go\bin;C:\Users\denizdereli\AppData\Roaming\nvm;d:\Program Files\nodejs;D:\Program Files\Geth;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;D:\protoc\bin;C:\MinGW\bin
+# environment
+KAFKA_HOME = D:\kafka
+# environment
+JAVA_HOME = D:\jdk
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := postgres
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\denizdereli\AppData\Local
+# environment
+DOCKER_TOOLBOX_INSTALL_PATH = d:\Program Files\Docker Toolbox
+# environment
+PSMODULEPATH = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\3a0d4cab7ef8604ef0fe8edcc9094f8e-1.67.0-main-sock
+# environment
+DOCKER_MACHINE_NAME = default
+# environment
+HOMEPATH = \Users\denizdereli
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\denizdereli\AppData\Roaming
+# environment
+TEMP = C:\Users\DENIZD~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+NVCUDASAMPLES10_1_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+# environment
+DOCKER_TLS_VERIFY = 1
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 3c03
+# environment
+PYCHARM = d:\Program Files\JetBrains\PyCharm 2020.3\bin;
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+DOCKER_CERT_PATH = C:\Users\denizdereli\.docker\machine\machines\default
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+DOCKER_HOST = tcp://192.168.99.100:2376
+# environment
+VSCODE_PID = 6812
+# environment
+USERDOMAIN_ROAMINGPROFILE = deniz
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=15/135=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Users\denizdereli\.dotnet\tools: could not be stat'd.
+# C:\Users\denizdereli\AppData\Roaming\nvm (key C:/Users/denizdereli/AppData/Roaming/nvm, mtime 1649117776): 11 files, no impossibilities.
+# C:\Users\denizdereli\AppData\Roaming\Composer\vendor\bin (key C:/Users/denizdereli/AppData/Roaming/Composer/vendor/bin, mtime 1646439236): 4 files, no impossibilities.
+# D:\wamp128\bin\mysql\mysql5.7.36\bin (key D:/wamp128/bin/mysql/mysql5.7.36/bin, mtime 1640907302): 39 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1608595696): 5 files, no impossibilities.
+# C:\Users\denizdereli\AppData\Local\Yarn\bin (key C:/Users/denizdereli/AppData/Local/Yarn/bin, mtime 1645921476): 14 files, no impossibilities.
+# D:\wamp128\bin\mariadb\mariadb10.6.5\bin (key D:/wamp128/bin/mariadb/mariadb10.6.5/bin, mtime 1640907333): 58 files, no impossibilities.
+# D:\Program Files\MongoDB\Server\4.0\bin (key D:/Program Files/MongoDB/Server/4.0/bin, mtime 1559687425): 20 files, no impossibilities.
+# D:\Program Files (x86)\Yarn\bin\ (key D:/Program Files (x86)/Yarn/bin/, mtime 1571519092): 7 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1416551837): 30 files, no impossibilities.
+# . (key d:/go/simplebank, mtime 1652037791): 9 files, no impossibilities.
+# C:\Users\denizdereli\AppData\Local\GitHubDesktop\bin (key C:/Users/denizdereli/AppData/Local/GitHubDesktop/bin, mtime 1640789656): 4 files, no impossibilities.
+# D:\Program Files\Kubernetes\Minikube (key D:/Program Files/Kubernetes/Minikube, mtime 1647947881): 6 files, no impossibilities.
+# d:\Program Files\Git LFS (key d:/Program Files/Git LFS, mtime 1638410564): 5 files, no impossibilities.
+# d:\Users\denizdereli\AppData\Local\Programs\Microsoft VS Code\bin (key d:/Users/denizdereli/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1651943165): 4 files, no impossibilities.
+# d:\Program Files\Kubernetes\Minikube (key d:/Program Files/Kubernetes/Minikube, mtime 1647947881): 6 files, no impossibilities.
+# d:\Program Files\JetBrains\PyCharm 2020.3\bin: could not be stat'd.
+# D:\Program Files\Geth (key D:/Program Files/Geth, mtime 1649460299): 10 files, no impossibilities.
+# d:\Program Files\Symfony (key d:/Program Files/Symfony, mtime 1640909030): 5 files, no impossibilities.
+# D:\TDM-GCC-64\bin (key D:/TDM-GCC-64/bin, mtime 1649461457): 61 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin, mtime 1635644597): 43 files, no impossibilities.
+# d:\Program Files\Git\cmd (key d:/Program Files/Git/cmd, mtime 1640569628): 8 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1579044416): 10 files, no impossibilities.
+# C:\Users\denizdereli\AppData\Roaming\npm\node_modules\npm\bin: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1651689441): 145 files, no impossibilities.
+# D:\protoc\bin (key D:/protoc/bin, mtime 1651686856): 3 files, no impossibilities.
+# d:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin (key d:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.3.1/bin, mtime 1641479416): 32 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1560951666): 3 files, no impossibilities.
+# D:\ProgramData\Anaconda3 (key D:/ProgramData/Anaconda3, mtime 1649019983): 88 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1585194614): 5 files, no impossibilities.
+# d:\Program Files\Docker Toolbox (key d:/Program Files/Docker Toolbox, mtime 1647941803): 14 files, no impossibilities.
+# D:\webserver\php (key D:/webserver/php, mtime 1633038699): 63 files, no impossibilities.
+# D:\wamp64\www\selenium\drivers: could not be stat'd.
+# d:\Program Files\heroku\bin (key d:/Program Files/heroku/bin, mtime 1641691639): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1634498354): 111 files, no impossibilities.
+# D:\Program Files\Go\bin (key D:/Program Files/Go/bin, mtime 1648475094): 4 files, no impossibilities.
+# D:\ProgramData\Anaconda3\Library\usr\bin: could not be stat'd.
+# d:\Program Files\JetBrains\PhpStorm 2021.3\bin (key d:/Program Files/JetBrains/PhpStorm 2021.3/bin, mtime 1640374675): 29 files, no impossibilities.
+# D:\ProgramData\Anaconda3\Library\bin (key D:/ProgramData/Anaconda3/Library/bin, mtime 1649019983): 451 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1631714818): 167 files, no impossibilities.
+# C:\ProgramData\ComposerSetup\bin (key C:/ProgramData/ComposerSetup/bin, mtime 1633039358): 5 files, no impossibilities.
+# D:\Program Files\curl\bin\curl: could not be stat'd.
+# D:\ProgramData\Anaconda3\Scripts (key D:/ProgramData/Anaconda3/Scripts, mtime 1649070279): 342 files, no impossibilities.
+# C:\Users\denizdereli\go\bin (key C:/Users/denizdereli/go/bin, mtime 1651953297): 11 files, no impossibilities.
+# C:\Program Files\Amazon\AWSCLIV2\ (key C:/Program Files/Amazon/AWSCLIV2/, mtime 1644269090): 37 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.1\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2019.1/, mtime 1608595600): 10 files, no impossibilities.
+# C:\ProgramData\chocolatey (key C:/ProgramData/chocolatey, mtime 1651689753): 18 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1640811682): 6 files, no impossibilities.
+# D:\ProgramData\Anaconda3\Library\mingw-w64\bin (key D:/ProgramData/Anaconda3/Library/mingw-w64/bin, mtime 1648930453): 15 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1645415902): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1651906229): 3249 files, no impossibilities.
+# D:\zookeeper\bin (key D:/zookeeper/bin, mtime 1646888625): 17 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1560951666): 7 files, no impossibilities.
+# d:\Program Files\nodejs (key d:/Program Files/nodejs, mtime 1644947399): 14 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1585194614): 10 files, no impossibilities.
+# D:\kafka\bin\windows (key D:/kafka/bin/windows, mtime 1646888967): 30 files, no impossibilities.
+# d:\Ruby31-x64\bin (key d:/Ruby31-x64/bin, mtime 1651738572): 31 files, no impossibilities.
+# C:\Users\denizdereli\AppData\Roaming\npm (key C:/Users/denizdereli/AppData/Roaming/npm, mtime 1649461640): 39 files, no impossibilities.
+# C:\Users\denizdereli\AppData\Roaming\np: could not be stat'd.
+# C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin (key C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin, mtime 1627494955): 84 files, no impossibilities.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1640569506): 12 files, no impossibilities.
+
+# 5423 files, no impossibilities in 62 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+postgres:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 3):
+	docker run --name postgres -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=secret -d postgres:12-alpine
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sqlc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	sqlc generate
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 01:49:32
+#  File has been updated.
+#  Successfully updated.
+
+createdb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	docker exec -it postgres createdb --username=root --owner=root transaction_bp
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dropdb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	docker exec -it dropdb transaction_bp
+
+migrateup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	migrate -path db/migration -database "postgresql://root:secret@192.168.99.100:5432/transaction_bp?sslmode=disable" -verbose up
+
+migratedown:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	migrate -path db/migration -database "postgresql://root:secret@192.168.99.100:5432/transaction_bp?sslmode=disable" -verbose down
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/27=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 11 (9) / strings = 5091 / storage = 84077 B / avg = 16 B
+# current buf: size = 8174 B / used = 2428 B / count = 174 / avg = 13 B
+# other used: total = 75903 B / count = 4917 / avg = 15 B
+# other free: total = 91 B / max = 17 B / min = 1 B / avg = 9 B
+
+# strcache performance: lookups = 5511 / hit rate = 7%
+# hash-table stats:
+# Load=5091/8192=62%, Rehash=0, Collisions=3272/5511=59%
+# Finished Make data base on Sun May 08 22:23:11 2022
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+

@@ -21,7 +21,7 @@ INSERT INTO accounts (
 
 type CreateAccountParams struct {
 	Owner    string `json:"owner"`
-	Balance  string `json:"balance"`
+	Balance  int64  `json:"balance"`
 	Currency string `json:"currency"`
 }
 
@@ -112,8 +112,8 @@ WHERE id = $1
 `
 
 type UpdateAccountBalanceParams struct {
-	ID      int64  `json:"id"`
-	Balance string `json:"balance"`
+	ID      int64 `json:"id"`
+	Balance int64 `json:"balance"`
 }
 
 func (q *Queries) UpdateAccountBalance(ctx context.Context, arg UpdateAccountBalanceParams) error {
