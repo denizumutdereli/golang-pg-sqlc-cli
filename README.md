@@ -1,1 +1,1 @@
-# golang-pg-sqlc-cli
+# service boot up process
