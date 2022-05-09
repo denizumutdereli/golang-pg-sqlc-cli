@@ -1,5 +1,7 @@
-postgres:
+dockerdbs:
 	docker run --name postgres -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=secret -d postgres:12-alpine
+pgstart:
+	docker start postgres
 createdb:
 	docker exec -it postgres createdb --encoding=UTF8 --username=root --owner=root mservice
 dropdb:
@@ -12,4 +14,4 @@ sqlc:
 	sqlc generate
 test:
 	go test -v -cover ./db/...
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc test
+.PHONY: dockerdbs pgstart createdb dropdb migrateup migratedown sqlc test
