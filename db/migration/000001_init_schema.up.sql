@@ -17,11 +17,11 @@ CREATE TABLE "accounts" (
 CREATE TABLE "orders" (
   "id" bigserial PRIMARY KEY,
   "account_id" bigint NOT NULL,
-  "token_id" bigint NOT NULL,
+  "token_id" bigint NOT NULL DEFAULT (0),
   "amount" bigint NOT NULL,
   "side" varchar NOT NULL DEFAULT 'BUY',
-  "price" bigint NOT NULL,
-  "status" varchar NOT NULL DEFAULT 'OPEN',
+  "price" bigint NOT NULL DEFAULT (0),
+  "position" varchar NOT NULL DEFAULT 'OPEN',
   "created_at" timestamp NOT NULL DEFAULT (now())
 );
 
