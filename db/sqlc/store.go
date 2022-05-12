@@ -35,7 +35,7 @@ func (store *Store) execTx(ctx context.Context, fn func(*Queries) error) error {
 	err = fn(q)
 	if err != nil {
 		if rollBackError := tx.Rollback(); rollBackError != nil {
-			return fmt.Errorf("tx error:%w rb err:%w", err, rollBackError)
+			return fmt.Errorf("tx err:%w", rollBackError)
 		}
 		return err
 	}
@@ -71,8 +71,8 @@ func (store *Store) TransferTx(ctx context.Context, arg TransferTxParams) (Trans
 	err := store.execTx(ctx, func(q *Queries) error {
 		var err error
 		result.Transfer, err = q.CreateTransfer(ctx, CreateTransferParams{
-			FromAccountId: arg.FromAccountId,
-			ToAccountId:   arg.ToAccountId,
+			FromAccountID: arg.FromAccountId,
+			ToAccountID:   arg.ToAccountId,
 			Amount:        arg.Amount,
 		})
 
@@ -81,12 +81,12 @@ func (store *Store) TransferTx(ctx context.Context, arg TransferTxParams) (Trans
 		}
 
 		result.FromOrder, err = q.CreateOrder(ctx, CreateOrderParams{
-			AccountId: arg.FromAccountId,
+			AccountID: arg.FromAccountId,
 			Amount:    -arg.Amount,
 		})
 
 		result.ToOrder, err = q.CreateOrder(ctx, CreateOrderParams{
-			AccountId: arg.ToAccountId,
+			AccountID: arg.ToAccountId,
 			Amount:    arg.Amount,
 		})
 

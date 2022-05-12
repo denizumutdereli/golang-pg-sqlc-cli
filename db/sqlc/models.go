@@ -19,13 +19,9 @@ type Account struct {
 type Order struct {
 	ID        int64 `json:"id"`
 	AccountID int64 `json:"account_id"`
-	TokenID   int64 `json:"token_id"`
 	// can be negative or positive
 	Amount int64  `json:"amount"`
-	Side   string `json:"side"`
-	// can not be negative
-	Price     int64     `json:"price"`
-	Status    string    `json:"status"`
+
 	CreatedAt time.Time `json:"created_at"`
 }
 

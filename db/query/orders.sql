@@ -1,13 +1,9 @@
 -- name: CreateOrder :one
 INSERT INTO orders (
     account_id,
-    token_id,
-    amount,
-    side,
-    price,
-    position,
+    amount
 ) VALUES (
-    $1, $2, $3, $4, $5, $6
+    $1, $2
 ) RETURNING *;
 
 -- name: GetOrder :one
