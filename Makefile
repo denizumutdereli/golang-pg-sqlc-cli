@@ -7,11 +7,11 @@ createdb:
 dropdb:
 	docker exec -it postgres dropdb mservice
 migrateup:
-	migrate -path db/migration -database "postgresql://root:secret@127.0.0.1:5432/mservice?sslmode=disable" -verbose up
+	migrate -path db/migration -database "postgresql://root:secret@192.168.99.100:5432/mservice?sslmode=disable" -verbose up
 migratedown:
-	migrate -path db/migration -database "postgresql://root:secret@127.0.0.1:5432/mservice?sslmode=disable" -verbose down
+	migrate -path db/migration -database "postgresql://root:secret@192.168.99.100:5432/mservice?sslmode=disable" -verbose down
 sqlc:
 	sqlc generate
 test:
-	go test -v -cover ./db/... -timeout 10s
+	go test -v -cover ./db/...
 .PHONY: dockerdbs pgstart createdb dropdb migrateup migratedown sqlc test
