@@ -13,5 +13,9 @@ migratedown:
 sqlc:
 	sqlc generate
 test:
-	go test -v -cover ./db/...
-.PHONY: dockerdbs pgstart createdb dropdb migrateup migratedown sqlc test
+	go test -v -cover ./db/... -timeout 10s
+
+server:
+	go run main.go
+
+.PHONY: dockerdbs pgstart createdb dropdb migrateup migratedown sqlc test server
